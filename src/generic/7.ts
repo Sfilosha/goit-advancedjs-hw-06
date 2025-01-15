@@ -16,4 +16,11 @@ const RoleDescription = {
   guest: 'Guest User',
 };
 
+// Updated Version
+const RoleDescriptionRecord: Record<UserRole, string> = {
+  [UserRole.admin]: 'Admin User',
+  [UserRole.editor]: 'Editor User',
+  [UserRole.guest]: 'Guest User',
+};
+
 export {};
